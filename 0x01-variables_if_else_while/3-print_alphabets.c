@@ -1,13 +1,11 @@
 #include <stdio.h>
-
 /**
- * main -lowercase and uppercase
- *   
+ * main - lowercase uppercase
+ *
  * Return: Always (Success)
  */
 int main(void)
 {
-char c;	
 for (c = 'a'; c <= 'z'; c++)
 {
 putchar(c);
