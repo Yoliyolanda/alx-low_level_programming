@@ -1,4 +1,5 @@
 #include <stdio.h>
+
 /**
  * main -lowercase and uppercase
  *   
@@ -6,7 +7,7 @@
  */
 int main(void)
 {
-char c; 
+char c;	
 for (c = 'a'; c <= 'z'; c++)
 {
 putchar(c);
