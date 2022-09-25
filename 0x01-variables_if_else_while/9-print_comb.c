@@ -1,16 +1,17 @@
 #include <stdio.h>
+
 /**
- * main - entry point
+ * main - Prints a series of numbers with commas
  *
- * Return: Always (success)
+ * Return: Always (Success);
  */
 int main(void)
 {
-int i;
-for (i = 10; i < 20; i++)
+int c;
+for (c = '0'; c <= 9; c++)
 {
-putchar(i % 10) + '0');
-if (i != 19)
+putchar(c);
+if (c != '9')
 {
 putchar(',');
 putchar('');
