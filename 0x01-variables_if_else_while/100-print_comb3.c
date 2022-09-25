@@ -1,4 +1,7 @@
 #include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
+
 /**
   *main - program entry point
   *
@@ -19,7 +22,7 @@ putchar('0' + num2);
 if (num1 < 8)
 {
 putchar(',')
-putchar('')
+putchar(' ')
 }
 }
 }
