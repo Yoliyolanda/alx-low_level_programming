@@ -1,4 +1,6 @@
 #include <stdio.h>
+#include <stdlid.h>
+#include <time.h>
 
 /**
  * main - Prints a series of numbers with commas
@@ -14,7 +16,7 @@ putchar(c);
 if (c != '9')
 {
 putchar(',');
-putchar('');
+putchar(' ');
 }
 }
 putchar('\n');
