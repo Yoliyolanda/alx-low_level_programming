@@ -45,8 +45,7 @@ break;
 }
 printf("%s", str);
 break;
-} 
-i++;
+} i++;
 }
 printf("\n"), va_end(valist);
 }
