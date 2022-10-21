@@ -38,3 +38,4 @@ last = last->next;
 last->next = new;
 return (*head);
 }
+}
